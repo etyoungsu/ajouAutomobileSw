@@ -1,0 +1,34 @@
+body {
+  width: 100%;
+}
+
+#firstTable {
+  width: 70%;
+  height: 300px;
+}
+
+#secondTable {
+  width: 70%;
+  height: 300px;
+}
+
+#secondTable a {
+  color : green;
+}
+
+.leftside1 {
+  width: 100px;
+ }
+
+.tableTitle {
+  background-color : powderblue;
+}
+
+table tr th {
+  border: solid;
+}
+
+body #about ul li {
+  width: 70%;
+  background-color: rgb(220,220,220);
+}
