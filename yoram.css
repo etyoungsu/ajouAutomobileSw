@@ -1,5 +1,6 @@
 body {
   width: 100%;
+  background-color:antiquewhite;
 }
 
 #firstTable {
@@ -21,14 +22,24 @@ body {
  }
 
 .tableTitle {
-  background-color : powderblue;
+  background-color : rgb(224, 206, 43);
 }
 
 table tr th {
   border: solid;
 }
 
+
 body #about ul li {
   width: 70%;
-  background-color: rgb(220,220,220);
+  background-color: rgb(255, 198, 151);
+  border-radius: 8px;
+}
+
+.name, .greeting {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
