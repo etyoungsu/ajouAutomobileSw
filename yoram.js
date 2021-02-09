@@ -13,7 +13,7 @@ function saveName(text) {
 function paintName(text) {
     form.classList.remove(SHOWING);
     greet.classList.add(SHOWING);
-    greet.innerText = `Hello ${text}`;
+    greet.innerText = `${text} 반가워!`;
 }
 
 function handler(event) {
