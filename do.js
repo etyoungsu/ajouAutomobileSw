@@ -1,6 +1,6 @@
 const todo = document.querySelector(".js-todo"),
     toDoInput = todo.querySelector("input"),
-    list = todo.querySelector(".js-toDoList");
+    list = document.querySelector(".js-toDoList");
 
 const TODO_LS = "ToDo";
 let toDos = [];

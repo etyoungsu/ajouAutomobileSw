@@ -3,6 +3,10 @@ body {
   background-color:antiquewhite;
 }
 
+.ajou {
+  background-color: rgb(0, 92, 230);
+}
+
 #firstTable {
   width: 70%;
   height: 300px;
