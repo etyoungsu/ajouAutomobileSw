@@ -1,24 +1,65 @@
 body {
+  margin: 0px;
   width: 100%;
   background-color:antiquewhite;
+}
+
+body #main {
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 40px;
+  border-bottom: black solid 1px;
 }
 
 .ajou {
   background-color: rgb(0, 92, 230);
 }
 
+input[type=text] {
+  width: 30%;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 10px;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.js-toDoList {
+  list-style-type: none;
+}
+
 #firstTable {
+  border-collapse: collapse;
   width: 70%;
   height: 300px;
 }
 
 #secondTable {
+  border-collapse: collapse;
   width: 70%;
   height: 300px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+#secondTable
+th {
+  height: 50px;
+}
+
+#secondTable
+.submajor {
+  width: 100px;
+  height: 50px;
 }
 
 #secondTable a {
   color : green;
+  text-decoration: none;
 }
 
 .leftside1 {
@@ -46,4 +87,18 @@ body #about ul li {
 
 .showing {
   display: block;
+}
+
+
+footer {
+  border-top: black solid 1px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+footer a {
+  margin: 30px 50px;
+  text-decoration: none;
+  color: cornflowerblue;
 }
